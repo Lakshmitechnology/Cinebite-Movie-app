@@ -1,0 +1,35 @@
+//Now playing
+'https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1';
+
+//Popular
+'https://api.themoviedb.org/3/movie/popular?language=en-US&page=1';
+
+//Top Rated
+https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1';
+
+//Upcoming
+https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1';
+
+//SEarch
+https://api.themoviedb.org/3/search/movie?query=goat&include_adult=false&language=en-US&page=1';
+
+// movie details
+https://api.themoviedb.org/3/movie/{movie_id}?language=en-US
+
+
+const options = {
+  method: 'GET',
+  headers: {
+    accept: 'application/json',
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDYyYWRjM2Y4NGIyZTE4MTgzMjhlNWQ3NTlkYmIwOSIsIm5iZiI6MTcyNzc1ODI0MS4zNjM5MjEsInN1YiI6IjY2ZmI3ZTUyNmVjNzgwNDc5NmQ2MmI3NSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GAXTLnFdMmLsyvEeIvzG54IKBrU7rujRqqvtvIvSpkI'
+  }
+};
+
+
+
+
+
+
+
+token:
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDYyYWRjM2Y4NGIyZTE4MTgzMjhlNWQ3NTlkYmIwOSIsIm5iZiI6MTcyNzc1ODIxNi43NjAyMzYsInN1YiI6IjY2ZmI3ZTUyNmVjNzgwNDc5NmQ2MmI3NSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.IX6k8ULIvx0V36bXdQMXF6D-BOloGmtGD-x0UgkYxO8
